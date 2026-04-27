@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Our Pets</title>
+    </head>
+    <body>
+        <header>
+        <h1>Accessibility on Tables</h1>
+        <p>Hi, I am Ann Ndegwa, a self taught web developer and i would like to share some few insights on tables.</p>
+        <p>Below is revised content on making tables accesible to the visually impaired using screen readers. Tag along!</p>
+        </header>
+        <main>
+            <h2>Semantics on Tables</h2>
+            <p>First of all we add a caption using the caption element and the scope attribute.</p>
+                <table>
+             <caption>Our Pets</caption>
+             <thead>
+             <tr>
+               <th scope="col">Name</th>
+               <th scope="col">Age</th>
+               <th scope="col">Type</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr>
+                <th scope="row">Nora</th>
+                <td>5</td>
+                <td>Dog</td>
+             </tr>
+             <tr>
+                <th scope="row">Gino</th>
+                <td>2</td>
+                <td>Cat</td>
+             </tr>
+             <tbody>
+            </table>
+            <p>Here is an example of headers which span across multiple cells</p>
+            <table>
+                <caption>Pets</caption>
+                <tr>
+                    <th scope="col">Group</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Color</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <th scope="col" rowspan="2">Cats</th>
+                    <th scope="row">Gin</th>
+                    <td>1</td>
+                    <td>Grey</td>
+                </tr>
+                <tr>
+                    <th scope="row">Grey</th>
+                    <td>3</td>
+                    <td>White</td>
+                </tr>
+                <tr>
+                    <th scope="col" rowspan="2">Dogs</th>
+                    <th scope="row">Taji</th>
+                    <td>2</td>
+                    <td>Black</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Malkia</th>
+                        <td>3</td>
+                        <td>Brown</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Total Pets=4</td>
+                        </tr>
+                    </tfoot>
+            </table>
+        </main>
+    </body>
+    
+</html>

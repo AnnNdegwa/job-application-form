@@ -1,0 +1,17 @@
+.container > p{
+       color:blue
+}
+h2~p{
+    color:blue;
+}
+.inline-block-element{
+    display:inline-block;
+     width:150px;
+     height:100px;
+}
+.element1 {
+    background-color:aqua;
+}
+.element2 {
+    background-color: green;
+}

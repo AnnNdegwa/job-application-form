@@ -1,0 +1,49 @@
+figure img{
+    border: 4px solid purple;
+}
+img + figcaption{
+    border:4px solid black;
+ width:150px;
+ height:85px;
+}
+body{
+    background-color:whitesmoke
+}
+
+
+.block-box{
+    display:block;
+    border:5px solid;
+    background-color:navy;
+    width:100px;
+    height:150px;
+}
+.inline-box{
+    border:5px solid;
+    background-color: aqua;
+    width:100px;
+    height:100px;
+}
+.inline-block-box{
+    display:inline-block;
+    border:5px solid;
+    background-color: greenyellow;
+    width:100px;
+    height:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

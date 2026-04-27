@@ -1,0 +1,26 @@
+.card{
+    padding:40px;
+    margin:0 auto;
+    width:75vw;
+    min-height:calc(100vh - 80px);
+    background-color: chocolate;
+    text-align:center;
+
+
+}
+hr, section{
+    width:100%;
+}
+body{
+    background-color: grey;
+    margin:0;
+}
+.image{
+    width:150px;
+    border-radius:40%;
+}
+ul{
+    display:inline-block;
+    text-align: left;
+
+}
