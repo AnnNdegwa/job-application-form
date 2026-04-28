@@ -6,7 +6,7 @@
     padding:20px;
     box-sizing:border-box;
     box-shadow:0 0 15px;
-    background-color: bisque;
+    background-color: #2a2a47;
     font-family: sans-serif;
     font-size: 1rem;
 
@@ -46,13 +46,16 @@ select:user-invalid{
     border:2px solid red;
 }
 button{
-    background-color:grey;
-    color:white;
+    background-color:#feac32;
+    color:#1b1b32;
     cursor: pointer;
-    padding:1.2rem;
+    padding:0.75em;
+    border-color:white;
+    font-size: 1rem;
+
 }
 button:hover{
-    background-color: midnightblue;
+    background-color: rgb(24, 24, 112);
     transition:0.4s ease-in-out;
 }
 input[type="radio"]:checked{
@@ -81,6 +84,8 @@ background-color:grey;
 body{
     display:flex;
     align-items: center;
+    background-color: #1b1b32;
+    color:#f5f6f7;
 
 }
 .employment-status{
