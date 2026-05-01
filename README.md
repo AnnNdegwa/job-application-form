@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Job Application Form 
 
 This is my first project built from scratch. A job application form based on clean minimalist code.
@@ -74,4 +74,3 @@ Practice files focusing on **Semantic HTML**. I used tags like `<article>`, `<se
 - Getting my **Front-End** layouts to actually work and look professional on a phone.
 - Get to a point where I don't get stuck on small things like linking images and CSS files.
 - Keep my code and my workspace working and clean
->>>>>>> 5937b05f042a6b19851cd708d018bdb8ef32cbd1
